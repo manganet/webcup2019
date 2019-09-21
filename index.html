@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/d10dc072de.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Catamaran&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simplelightbox.min.css"
+      integrity="sha256-RxbFRaEchWYC1LsOatZ6Rb6g+52pFSHe0QURBarnTKQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Moun'CAFE - kfé péi</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Moun'CAFE</h1>
+        <ul class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <!-- <li><a href="#specs">Specs</a></li>
+            <li><a href="#contact">Contact</a></li> -->
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="section-a">
+      <div class="container">
+        <div>
+          <h1>Nout kfé péi.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+            repudiandae rerum libero ipsum asperiores omnis mollitia, nostrum
+            commodi placeat ea itaque modi corrupti corporis nam voluptas aut
+            reprehenderit eaque culpa.
+          </p>
+          <a href="#" class="btn">Plus d'info</a>
+        </div>
+        <img src="img/cafe5.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- Large Text -->
+    <section id="about" class="section-b">
+      <div class="overlay">
+        <div class="section-b-inner py-5">
+          <h3 class="text-2">Local taste</h3>
+          <h2 class="text-5 mt-1">Le gout péi oté</h2>
+          <p class="mt-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+            repudiandae laboriosam quia, error tempore porro ducimus voluptate
+            laborum nostrum iure.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section-c">
+      <div class="gallery">
+        <a href="img/cafe6.jpg" class="big"
+          ><img src="img/cafe6.jpg" alt=""
+        /></a>
+        <a href="img/cafe2.jpg" class="big"
+          ><img src="img/cafe2.jpg" alt=""
+        /></a>
+        <a href="img/cafe4.jpg" class="big"
+          ><img src="img/cafe4.jpg" alt=""
+        /></a>
+        <a href="img/cafe6.jpg" class="big"
+          ><img src="img/cafe6.jpg" alt=""
+        /></a>
+        <a href="img/cafe7.jpg" class="big">
+          <img src="img/cafe7.jpg" alt=""
+        /></a>
+        <a href="img/cafe8.jpg" class="big"
+          ><img src="img/cafe8.jpg" alt=""
+        /></a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-footer py-4 bg-primary">
+      <div class="container">
+        <div>
+          <h2 class="text-2 mb-1">Lorem ipsum dolor sit.</h2>
+          <a href="http://twitter.com">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="http://facebook.com">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="http://youtube.com">
+            <i class="fab fa-youtube fa-2x"></i>
+          </a>
+        </div>
+        <div>
+          <h3>Company Info</h3>
+          <ul>
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Blog Posts</h3>
+          <ul>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Subscribe</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <form
+            class="mt-1"
+            name="email-form"
+            method="POST"
+            data-netlify="true"
+          >
+            <div class="email-form">
+              <span class="form-control-wrap"
+                ><input
+                  type="email"
+                  name="email"
+                  id="email"
+                  size="40"
+                  class="form-control"
+                  placeholder="E-mail"/></span
+              ><button type="submit" value="Submit" class="form-control submit">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simple-lightbox.min.js"
+      integrity="sha256-8yUAJdGWNAZeApC9/4KSOAmwfFsk07TBeUkBtVg2G6g="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function() {
+        const $gallery = $(".gallery a").simpleLightbox();
+      });
+    </script>
+  </body>
+</html>
